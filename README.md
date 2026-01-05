@@ -45,5 +45,13 @@ We are currently organizing the code and writing documentation to ensure reprodu
 - The inference scripts and model weights will be fully open-sourced.
 - Detailed instructions for reproducing the paper's figures will be provided.
 
-## 📝 Citation
-If you find our work useful, please cite our paper (BibTeX coming soon).
+## ⚡ Prerequisites
+- Linux or Windows
+- Python 3.8+
+- NVIDIA GPU + CUDA
+
+## 📦 Installation
+### Environment
+```bash
+conda env create --file environment.yml
+conda activate Zero
