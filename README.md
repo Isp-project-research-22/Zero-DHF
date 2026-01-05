@@ -45,12 +45,12 @@ We are currently organizing the code and writing documentation to ensure reprodu
 - The inference scripts and model weights will be fully open-sourced.
 - Detailed instructions for reproducing the paper's figures will be provided.
 
-## Prerequisites
+## ⚡ Prerequisites
 - Linux
 - Python 3.8
 - NVIDIA GPU + CUDA CuDNN
 
-## Installation
+## 📦 Installation
 ### Environment
 ```
 conda env create --file environment.yml
@@ -62,5 +62,5 @@ wget https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffu
 ```
 ### Quick Start
 ```
- python main.py 
+python main.py 
 ```
