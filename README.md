@@ -6,15 +6,16 @@
 
 **[Authors]** Yongzhe Wang, Meng Jiang*, Junfeng Jing, Xinyao Li
 
-[![Paper Status](https://img.shields.io/badge/Status-Under_Review-yellow)](https://www.sciencedirect.com/journal/neurocomputing)
-[![Journal](https://img.shields.io/badge/Journal-Neurocomputing-blue)](https://www.sciencedirect.com/journal/neurocomputing)
+[![Paper Status](https://img.shields.io/badge/Status-Under_Review-yellow)](https://www.sciencedirect.com/journal/signal-processing)
+[![Journal](https://img.shields.io/badge/Journal-Signal_Processing-blue)](https://www.sciencedirect.com/journal/signal-processing)
+[![Publisher](https://img.shields.io/badge/Publisher-Elsevier%20%7C%20EURASIP-orange)](https://www.eurasip.org/index.php?option=com_content&view=article&id=130&Itemid=132)
 
 </div>
 
 ---
 
 ## 📢 News
-- **[2025-12]** This paper has been submitted to **_Neurocomputing_**.
+- **[2026-01]** This paper has been submitted to **_Signal Processing_** (Elsevier).
 - The full code and pre-trained models will be released here **immediately upon acceptance**.
 
 ## 🖼️ Gallery
