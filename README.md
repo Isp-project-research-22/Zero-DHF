@@ -45,13 +45,22 @@ We are currently organizing the code and writing documentation to ensure reprodu
 - The inference scripts and model weights will be fully open-sourced.
 - Detailed instructions for reproducing the paper's figures will be provided.
 
-## ⚡ Prerequisites
-- Linux or Windows
-- Python 3.8+
-- NVIDIA GPU + CUDA
+## Prerequisites
+- Linux
+- Python 3.8
+- NVIDIA GPU + CUDA CuDNN
 
-## 📦 Installation
+## Installation
 ### Environment
-```bash
+```
 conda env create --file environment.yml
-conda activate Zero
+```
+### Pre-Trained Models
+download this [model](https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion_uncond.pt)(from [guided-diffusion](https://github.com/openai/guided-diffusion)) 
+```
+wget https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion_uncond.pt
+```
+### Quick Start
+```
+ python main.py 
+```
