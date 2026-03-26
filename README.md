@@ -16,7 +16,7 @@
 ---
 
 ## 📢 News
-- **[2026-01]** The manuscript of **Zero-DHF** is currently under review.
+- **[2026-03]** The manuscript of **Zero-DHF** is currently under review.
 - Code, model weights, and reproduction instructions will be released after the review process.
 
 ---
