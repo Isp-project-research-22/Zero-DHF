@@ -4,10 +4,10 @@
 
 ## Zero-DHF: Zero-Shot Low-Light Image Enhancement via HVI Color Disentanglement and Fourier-Guided Diffusion
 
-**Yongzhe Wang, Meng Jiang\*, Junfeng Jing, Xinyao Li**  
+**Yongzhe Wang, Junfeng Jing, Meng Jiang\*,  Xinyao Li， Yimin Zhi， Huanhuan Zhang**  
 \* Corresponding author
 
-[![Status](https://img.shields.io/badge/Status-Manuscript-yellow)]()
+[![Status](https://img.shields.io/badge/Status-Code%20Coming%20Soon-yellow)]()
 [![Task](https://img.shields.io/badge/Task-Low--Light_Image_Enhancement-blue)]()
 [![Framework](https://img.shields.io/badge/Framework-PyTorch-red)]()
 
@@ -16,8 +16,8 @@
 ---
 
 ## 📢 News
-- **[2026-03]** The manuscript of **Zero-DHF** is currently under review.
-- Code, model weights, and reproduction instructions will be released after the review process.
+- **[2026-04]** The repository is being prepared for public release.
+- Code, model weights, and detailed reproduction instructions will be made publicly available upon acceptance of the manuscript.
 
 ---
 
@@ -36,17 +36,12 @@ Overall architecture of Zero-DHF, which combines HVI-based color disentanglement
 ---
 
 ## 🚀 Abstract
-Low-light image enhancement (LLIE) aims to recover visibility and perceptual quality from images captured under insufficient illumination. However, existing zero-shot or training-free approaches often struggle to simultaneously preserve color fidelity, structural consistency, and computational efficiency.  
-
-To address this issue, we propose **Zero-DHF**, a zero-shot low-light image enhancement framework that combines **HVI-based luminance--chrominance disentanglement** with **Fourier-guided diffusion restoration**. Specifically, the proposed method first decouples illumination and chromaticity in the HVI space, so that the diffusion process focuses on the intensity component while preserving the original color structure. A lightweight Fourier-domain guidance mechanism is then introduced to constrain structural drift during reverse sampling. In addition, CLIP-based semantic guidance and structure-preserving constraints are incorporated during test-time optimization to further improve perceptual naturalness and local detail consistency.  
-
-Experimental results on **LOLv1** and **LOLv2_Real** show that Zero-DHF achieves strong performance among training-free methods, especially on the more challenging LOLv2_Real benchmark.
+Low-light image enhancement (LLIE) is important for improving image visibility under challenging illumination conditions. Since collecting paired ground-truth data in real low-light scenes is difficult, training-free or zero-shot enhancement has emerged as a promising alternative. However, existing zero-shot diffusion-based methods often suffer from color shifts and structural distortions when restoration is performed in highly coupled RGB space. To address this issue, we propose Zero-DHF, a zero-shot diffusion framework that combines HVI-based luminance--chrominance disentanglement with Fourier-guided restoration. Specifically, an HVI-based disentanglement scheme separates the illumination component from fixed chrominance representations to alleviate generative color degradation. A Fourier-guided spectral fusion strategy is further introduced to preserve high-frequency details and reduce structural drift during reverse sampling. Moreover, instead of optimizing high-dimensional image pixels, we devise a test-time optimization (TTO) mechanism that updates only a single amplitude-scaling scalar under CLIP-based semantic and structure-preserving constraints. Extensive experiments demonstrate that Zero-DHF achieves strong performance among zero-shot methods, including 19.639 dB PSNR on LOLv2-Real, while effectively balancing illumination enhancement, color fidelity, and structural consistency.
 
 ---
 
 ## 🛠️ Repository Status
-This repository is currently being organized for public release.  
-After the review process, it will include:
+This repository is currently under organization for public release. The following materials will be provided after acceptance:
 
 - inference scripts
 - environment configuration
