@@ -31,7 +31,7 @@ Visual comparison of Zero-DHF with representative baselines on challenging low-l
 ### Framework
 Overall architecture of Zero-DHF, which combines HVI-based color disentanglement with Fourier-guided diffusion restoration.
 
-![Framework Architecture](framework.png)
+![Framework Architecture](fig2.pdf)
 
 ---
 
